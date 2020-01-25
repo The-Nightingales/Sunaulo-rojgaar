@@ -6,10 +6,10 @@
 </head>
 <body>
   <div class="header">
-  	<h2>Company Register</h2>
+  	<h2>Company Registration</h2>
   </div>
 
-  <form method="post" action="register.php">
+  <form method="post" action="cregisterprocess.php">
   	
   	<div class="input-group">
 	  <label>Company Name</label>
@@ -28,13 +28,13 @@
 
 	<div class="input-group">
 		<label>Password</label>
-		<input type="password" name="password-1">
+		<input type="password" name="password_1">
 	</div>
 
 
 	<div class="input-group">
 		<label>Confirm Password</label>
-		<input type="password" name="password-2">
+		<input type="password" name="password_2">
 	</div>
 
 	<div class="input-group">
@@ -42,7 +42,7 @@
 	</div>
 
 	<p>
-		Already a member? <a href="login.php">Sign in</a>
+		Already a member? <a href="clogin.php">Sign in</a>
 	</p>
 	  </form>
 </body>
